@@ -5,7 +5,7 @@ include 'connect.php';
 <!DOCTYPE html>
 <html lang="hr">
 <head>
-    <title>Form</title>
+    <title>Insite</title>
 
     <meta charset="UTF-8">
     <script defer src="script.js"></script>
@@ -29,7 +29,7 @@ include 'connect.php';
             <th></th>
         </tr>
 
-        <form action="" method=POST onsubmit="return false">
+        <form action="" method=POST >
             <?php
 
             $query = "SELECT * FROM people";
@@ -55,8 +55,6 @@ include 'connect.php';
             </div>
             
             <?php
-
-            
 
 
             if (isset($_POST['1'])) {
