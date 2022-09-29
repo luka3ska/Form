@@ -5,7 +5,7 @@ include 'connect.php';
 <!DOCTYPE html>
 <html lang="hr">
 <head>
-    <title>Insite</title>
+    <title>Form</title>
 
     <meta charset="UTF-8">
     <script defer src="script.js"></script>
